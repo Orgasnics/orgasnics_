@@ -1,5 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 /* Importing all CSS files */
 @import url("./Header.css");
+@import url("./flex-slider.css");
+/* @import url("./fontawesome.css"); */
+@import url("./templatemo-finance-business.css");
+/* @import url("./owl.css"); */
+
+
+
+
 
 /* Defaults */
 * {
