@@ -13,8 +13,8 @@ const Per_Bar = () => {
                   </a>
                 </li>
                 <li>
-                  <a href='https://wa.me/+33658883107' target='_blank'>
-                    090-080-0760
+                  <a href='https://wa.me/+923135098197' target='_blank'>
+                    +3135098197
                   </a>
                   {/* <i class='fa fa-phone'></i> */}
                 </li>
