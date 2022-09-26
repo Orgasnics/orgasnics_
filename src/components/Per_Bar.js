@@ -14,7 +14,7 @@ const Per_Bar = () => {
                 </li>
                 <li>
                   <a href='https://wa.me/+923135098197' target='_blank'>
-                    +3135098197
+                    +923135098197
                   </a>
                   {/* <i class='fa fa-phone'></i> */}
                 </li>
