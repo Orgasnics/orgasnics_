@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
+import React, { Component } from 'react';
+import Slider from 'react-slick';
 
 export default class VariableWidth extends Component {
   render() {
@@ -11,72 +11,79 @@ export default class VariableWidth extends Component {
       slidesToScroll: 1,
       autoplay: true,
       arrow: false,
-
-
     };
     return (
       <div>
-        <div class="testimonials">
-          <div class="container">
-            <div class="row"></div>
-            <div class="col-md-12">
-              <div class="section-heading">
-                <h2>What they say <em>about us</em></h2>
+        <div class='testimonials'>
+          <div class='container'>
+            <div class='row'></div>
+            <div class='col-md-12'>
+              <div class='section-heading'>
+                <h2>
+                  What they say <em>about us</em>
+                </h2>
                 <span>testimonials from our greatest clients</span>
               </div>
             </div>
             <Slider {...settings}>
               <div>
-                <div class="testimonial-item">
-                  <div class="inner-content">
+                <div class='testimonial-item'>
+                  <div class='inner-content'>
                     <h4>George Walker</h4>
                     <span>Chief Financial Analyst</span>
-                    <p>"Nulla ullamcorper, ipsum vel condimentum congue, mi odio vehicula tellus, sit amet malesuada justo sem sit amet quam. Pellentesque in sagittis lacus."</p>
+                    <p>
+                      "We were looking for a team who could take on our project and finish the job,
+                      EverGreen Completed all work as asked. Gladly I found them"
+                    </p>
                   </div>
-                  <img src="http://placehold.it/60x60" alt="" />
+                  <img src='http://placehold.it/60x60' alt='' />
                 </div>
-
               </div>
 
-              <div class="testimonial-item">
-                <div class="inner-content">
+              <div class='testimonial-item'>
+                <div class='inner-content'>
                   <h4>John Smith</h4>
                   <span>Market Specialist</span>
-                  <p>"In eget leo ante. Sed nibh leo, laoreet accumsan euismod quis, scelerisque a nunc. Mauris accumsan, arcu id ornare malesuada, est nulla luctus nisi."</p>
+                  <p>
+                    "They have a very good development team. Responsive and dependable. We are
+                    working with them on other projects. Highly recommended!"
+                  </p>
                 </div>
-                <img src="http://placehold.it/60x60" alt="" />
+                <img src='http://placehold.it/60x60' alt='' />
               </div>
 
               <div>
-                <div class="testimonial-item">
-                  <div class="inner-content">
+                <div class='testimonial-item'>
+                  <div class='inner-content'>
                     <h4>David Wood</h4>
                     <span>Chief Accountant</span>
-                    <p>"Ut ultricies maximus turpis, in sollicitudin ligula posuere vel. Donec finibus maximus neque, vitae egestas quam imperdiet nec. Proin nec mauris eu tortor consectetur tristique."</p>
+                    <p>
+                      "Ever Green was a delight to work with. There Mobile App development team has
+                      a very firm grasp on React and React Native, ensured timely delivery and
+                      dedication."
+                    </p>
                   </div>
-                  <img src="http://placehold.it/60x60" alt="" />
+                  <img src='http://placehold.it/60x60' alt='' />
                 </div>
               </div>
-
 
               <div>
-
-                <div class="testimonial-item">
-                  <div class="inner-content">
+                <div class='testimonial-item'>
+                  <div class='inner-content'>
                     <h4>Andrew Boom</h4>
                     <span>Marketing Head</span>
-                    <p>"Curabitur sollicitudin, tortor at suscipit volutpat, nisi arcu aliquet dui, vitae semper sem turpis quis libero. Quisque vulputate lacinia nisl ac lobortis."</p>
+                    <p>
+                      "It is a long established fact that a reader will be distracted by the
+                      readable content of a page when looking at its layout."
+                    </p>
                   </div>
-                  <img src="http://placehold.it/60x60" alt="" />
+                  <img src='http://placehold.it/60x60' alt='' />
                 </div>
               </div>
-
-
             </Slider>
           </div>
         </div>
       </div>
-
     );
   }
 }

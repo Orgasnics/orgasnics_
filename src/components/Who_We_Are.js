@@ -1,25 +1,35 @@
-import React from 'react'
-import more_info1 from "../assets/more-info.jpg"
+import React from 'react';
+import more_info1 from '../assets/more-info.jpg';
 const Who_We_Are = () => {
   return (
     <>
-      <div class="more-info">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="more-info-content">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="left-image">
-                      <img src={more_info1} alt="" />
+      <div class='more-info'>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-md-12'>
+              <div class='more-info-content'>
+                <div class='row'>
+                  <div class='col-md-6'>
+                    <div class='left-image'>
+                      <img src={more_info1} alt='' />
                     </div>
                   </div>
-                  <div class="col-md-6 align-self-center">
-                    <div class="right-content">
+                  <div class='col-md-6 align-self-center'>
+                    <div class='right-content'>
                       <span>Who we are</span>
-                      <h2>Get to know about <em>our company</em></h2>
-                      <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus<br />Praes end at dictum metus. Morbi id hendrerit lectus, nec dapibus ex. Etiam ipsum quam, luctus eu egestas eget, tincidunt</p>
-                      <a href="#" class="filled-button">Read More</a>
+                      <h2>
+                        Get to know about <em>our company</em>
+                      </h2>
+                      <p>
+                        Trustful, skilled and ambitious team of developers, UI/UX designers, project
+                        managers and quality testers. Our aim is to build healthy partnerships with
+                        our clients, in which respect is the central value. Our main difference with
+                        other software houses is that we are committed to delivering the last mile,
+                        without any compromise.
+                      </p>
+                      <a href='#' class='filled-button'>
+                        Read More
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -29,7 +39,7 @@ const Who_We_Are = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Who_We_Are
+export default Who_We_Are;

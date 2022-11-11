@@ -42,7 +42,7 @@ const Request_a_call_back = () => {
                 <h2>
                   Request a <em>call back</em>
                 </h2>
-                <span>Etiam suscipit ante a odio consequat</span>
+                <span>We Will Reach you back shortly</span>
               </div>
             </div>
             <form onSubmit={sendEmail}>
