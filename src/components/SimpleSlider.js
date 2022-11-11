@@ -31,7 +31,7 @@ export default class SimpleSlider extends Component {
                       everyone. You can download, edit and use this layout for your business
                       website.
                     </p>
-                    <a href='contact.html' class='filled-button'>
+                    <a href='' class='filled-button'>
                       contact us
                     </a>
                   </div>
@@ -56,7 +56,7 @@ export default class SimpleSlider extends Component {
                       allowed to re-distribute this template ZIP file on any template download
                       website. Please contact TemplateMo for more detail.
                     </p>
-                    <a href='services.html' class='filled-button'>
+                    <a href='' class='filled-button'>
                       our services
                     </a>
                   </div>
@@ -77,11 +77,10 @@ export default class SimpleSlider extends Component {
                       &amp; Statistics
                     </h4>
                     <p>
-                      Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate mi. Sed nec cursus
-                      augue. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras
-                      interdum nisl ac urna tempor mollis.
+                      Market analysis is a detailed assessment of your business's target market and
+                      competitive landscape within a specific industry.
                     </p>
-                    <a href='about.html' class='filled-button'>
+                    <a href='' class='filled-button'>
                       learn more
                     </a>
                   </div>

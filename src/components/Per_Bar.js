@@ -9,7 +9,7 @@ const Per_Bar = () => {
               <ul class='left-info'>
                 <li>
                   <a href='#'>
-                    <i class='fa fa-clock-o'></i>Mon-Fri 09:00-17:00
+                    <i class='fa fa-clock-o'></i>Mon-Fri 09:00-18:00
                   </a>
                 </li>
                 <li>

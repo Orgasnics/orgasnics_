@@ -44,8 +44,8 @@ const Footer = () => {
             <div class='col-md-3 footer-item'>
               <h4>Finance Business</h4>
               <p>
-                Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus
-                lacinia sapien vitae.
+                Market analysis is a detailed assessment of your business's target market and
+                competitive landscape within a specific industry.
               </p>
               {/* <ul class="social-icons">
                                 <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -54,7 +54,7 @@ const Footer = () => {
                                 <li><a href="#"><i class="fa fa-behance"></i></a></li>
                             </ul> */}
             </div>
-            <div class='col-md-3 footer-item'>
+            {/* <div class='col-md-3 footer-item'>
               <h4>Useful Links</h4>
               <ul class='menu-list'>
                 <li>
@@ -73,7 +73,7 @@ const Footer = () => {
                   <a href='#'>Lacinia ac sapien</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
             {/* <div class='col-md-3 footer-item'>
               <h4>Additional Pages</h4>
               <ul class='menu-list'>
