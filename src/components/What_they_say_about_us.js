@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Slider from 'react-slick';
+import React, { Component } from "react";
+import Slider from "react-slick";
 
 export default class VariableWidth extends Component {
   render() {
@@ -12,72 +12,77 @@ export default class VariableWidth extends Component {
       autoplay: true,
       arrow: false,
     };
+    const screenWidth = window.innerWidth;
     return (
       <div>
-        <div class='testimonials'>
-          <div class='container'>
-            <div class='row'></div>
-            <div class='col-md-12'>
-              <div class='section-heading'>
+        <div class="testimonials">
+          <div class="container">
+            <div class="row"></div>
+            <div class="col-md-12">
+              <div class="section-heading">
                 <h2>
-                  What they say <em>about us</em>
+                  <em>Your Feedback Matters</em>
                 </h2>
-                <span>testimonials from our greatest clients</span>
+                <span>Client Reviews</span>
               </div>
             </div>
             <Slider {...settings}>
               <div>
-                <div class='testimonial-item'>
-                  <div class='inner-content'>
-                    <h4>George Walker</h4>
-                    <span>Chief Financial Analyst</span>
+                <div class="testimonial-item">
+                  <div class="inner-content">
+                    <h4>Ryan Hutchinson</h4>
+                    <span>United States</span>
                     <p>
-                      "We were looking for a team who could take on our project and finish the job,
-                      EverGreen Completed all work as asked. Gladly I found them"
+                      {screenWidth > 770
+                        ? "We had a job which needed quick expert help and right  then we found Ever Green, Job completed successfully with all work asked within the timeline, Kudos"
+                        : "We had a job which needed quick expert help and right ...."}
                     </p>
                   </div>
-                  <img src='http://placehold.it/60x60' alt='' />
+                  <img src="http://placehold.it/60x60" alt="" />
                 </div>
               </div>
 
-              <div class='testimonial-item'>
-                <div class='inner-content'>
-                  <h4>John Smith</h4>
-                  <span>Market Specialist</span>
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>CB</h4>
+                  <span>United States</span>
+
                   <p>
-                    "They have a very good development team. Responsive and dependable. We are
-                    working with them on other projects. Highly recommended!"
+                    {screenWidth > 770
+                      ? "They have a very good development team. Responsive and dependable. We are working with them on other projects. Highly recommended!"
+                      : "They have a very good development team. Responsive and dep...."}
                   </p>
                 </div>
-                <img src='http://placehold.it/60x60' alt='' />
+                <img src="http://placehold.it/60x60" alt="" />
               </div>
 
               <div>
-                <div class='testimonial-item'>
-                  <div class='inner-content'>
-                    <h4>David Wood</h4>
-                    <span>Chief Accountant</span>
+                <div class="testimonial-item">
+                  <div class="inner-content">
+                    <h4>Fahad S</h4>
+                    <span>Pakistan</span>
                     <p>
-                      "Ever Green was a delight to work with. There Mobile App development team has
-                      a very firm grasp on React and React Native, ensured timely delivery and
-                      dedication."
+                      {screenWidth > 770
+                        ? "Ever Green was a delight to work with. There Mobile App development team has a very firm grasp on React and React Native, ensured timely delivery and dedication. Will consider them for future for sure."
+                        : "Ever Green was a delight to work with. There Mobile App development team has a..."}
                     </p>
                   </div>
-                  <img src='http://placehold.it/60x60' alt='' />
+                  <img src="http://placehold.it/60x60" alt="" />
                 </div>
               </div>
 
               <div>
-                <div class='testimonial-item'>
-                  <div class='inner-content'>
-                    <h4>Andrew Boom</h4>
-                    <span>Marketing Head</span>
+                <div class="testimonial-item">
+                  <div class="inner-content">
+                    <h4>Laurent Louis-Henry</h4>
+                    <span>France</span>
                     <p>
-                      "It is a long established fact that a reader will be distracted by the
-                      readable content of a page when looking at its layout."
+                      {screenWidth > 770
+                        ? "Ever Green a permis à mon application de prendre forme ! En partant d’une simple idée, ils ont su faire preuve d’initiative et me conseiller sur les décisions à prendre."
+                        : "Ever Green a permis à mon application de prendre forme...."}
                     </p>
                   </div>
-                  <img src='http://placehold.it/60x60' alt='' />
+                  <img src="http://placehold.it/60x60" alt="" />
                 </div>
               </div>
             </Slider>
