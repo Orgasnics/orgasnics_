@@ -342,6 +342,7 @@ header .navbar {
 }
 
 .navbar .navbar-toggler {
+  display: none;
   border-color: #fff;
   background-color: #fff;
   height: 36px;
@@ -818,6 +819,7 @@ ul.slick-dots {
   border-radius: 5px;
   height: 250px;
   width: 95%;
+  overflow: hidden;
 }
 
 .testimonial-item p {

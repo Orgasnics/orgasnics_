@@ -21,11 +21,7 @@ export default class SimpleSlider extends Component {
                 <div class="img-fill">
                   <div class="text-content">
                     <h6>Managing a Remote Team</h6>
-                    <h4>
-                      Published on
-                      <br />
-                      June 13th 2022
-                    </h4>
+
                     <p>
                       In the past, it was easy to manage a team of employees who
                       were not working thousands of miles away from you.
@@ -48,11 +44,7 @@ export default class SimpleSlider extends Component {
                 <div class="img-fill">
                   <div class="text-content">
                     <h6>Why having a business website is necessary ?</h6>
-                    <h4>
-                      Published on
-                      <br />
-                      June 13th 2022
-                    </h4>
+
                     <p>
                       We live in a digital world where everyone has cell-phones
                       with the internet. Most consumers will be using their
@@ -75,11 +67,7 @@ export default class SimpleSlider extends Component {
                 <div class="img-fill">
                   <div class="text-content">
                     <h6>Agile Methodology</h6>
-                    <h4>
-                      Published on
-                      <br />
-                      August 3rd 2022
-                    </h4>
+
                     <p>
                       Agile stands for its versatility and evolutionary nature
                       as one of the most common approaches to project
