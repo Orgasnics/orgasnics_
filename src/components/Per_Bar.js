@@ -1,45 +1,45 @@
-import React from 'react';
+import React from "react";
 const Per_Bar = () => {
   return (
     <>
-      <div class='sub-header'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-md-8 col-xs-12'>
-              <ul class='left-info'>
+      <div class="sub-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-xs-12">
+              <ul class="left-info">
                 <li>
-                  <a href='#'>
-                    <i class='fa fa-clock-o'></i>Mon-Fri 09:00-18:00
+                  <a href="#">
+                    <i class="fa fa-clock-o"></i>Mon-Fri 09:00-18:00
                   </a>
                 </li>
                 <li>
-                  <a href='https://wa.me/+923135098197' target='_blank'>
+                  <a href="https://wa.me/+923135098197" target="_blank">
                     +923135098197
                   </a>
                   {/* <i class='fa fa-phone'></i> */}
                 </li>
               </ul>
             </div>
-            <div class='col-md-4'>
-              <ul class='right-icons'>
+            <div class="col-md-4">
+              <ul class="right-icons">
                 <li>
-                  <a href='#'>
-                    <i class='fa fa-facebook'></i>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href='#'>
-                    <i class='fa fa-twitter'></i>
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href='#'>
-                    <i class='fa fa-linkedin'></i>
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href='#'>
-                    <i class='fa fa-behance'></i>
+                  <a href="#">
+                    <i class="fa fa-behance"></i>
                   </a>
                 </li>
               </ul>

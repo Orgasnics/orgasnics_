@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Slider from 'react-slick';
+import React, { Component } from "react";
+import Slider from "react-slick";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -16,22 +16,24 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <div class='Modern-Slider'>
-              <div class='item item-1'>
-                <div class='img-fill'>
-                  <div class='text-content'>
-                    <h6>we are ready to help you</h6>
+            <div class="Modern-Slider">
+              <div class="item item-1">
+                <div class="img-fill">
+                  <div class="text-content">
+                    <h6>Managing a Remote Team</h6>
                     <h4>
-                      Financial Analysis
+                      Published on
                       <br />
-                      &amp; Consulting
+                      June 13th 2022
                     </h4>
                     <p>
-                      This finance HTML template is 100% free of charge provided by TemplateMo for
-                      everyone. You can download, edit and use this layout for your business
-                      website.
+                      In the past, it was easy to manage a team of employees who
+                      were not working thousands of miles away from you.
+                      Nowadays, businesses are adopting remote trends by
+                      employing skilled workers from around the globe.
+                      Naturally, the manager is responsible fo...
                     </p>
-                    <a href='' class='filled-button'>
+                    <a href="" class="filled-button">
                       contact us
                     </a>
                   </div>
@@ -41,22 +43,24 @@ export default class SimpleSlider extends Component {
           </div>
 
           <div>
-            <div class='Modern-Slider'>
-              <div class='item item-2'>
-                <div class='img-fill'>
-                  <div class='text-content'>
-                    <h6>we are here to support you</h6>
+            <div class="Modern-Slider">
+              <div class="item item-2">
+                <div class="img-fill">
+                  <div class="text-content">
+                    <h6>Why having a business website is necessary ?</h6>
                     <h4>
-                      Accounting
+                      Published on
                       <br />
-                      &amp; Management
+                      June 13th 2022
                     </h4>
                     <p>
-                      You are allowed to use this template for your company websites. You are NOT
-                      allowed to re-distribute this template ZIP file on any template download
-                      website. Please contact TemplateMo for more detail.
+                      We live in a digital world where everyone has cell-phones
+                      with the internet. Most consumers will be using their
+                      electronic devices to search for online information that
+                      will help them in making a smarter purchase decision.
+                      Actually, according to a su...
                     </p>
-                    <a href='' class='filled-button'>
+                    <a href="" class="filled-button">
                       our services
                     </a>
                   </div>
@@ -66,21 +70,24 @@ export default class SimpleSlider extends Component {
           </div>
 
           <div>
-            <div class='Modern-Slider'>
-              <div class='item item-3'>
-                <div class='img-fill'>
-                  <div class='text-content'>
-                    <h6>we have a solid background</h6>
+            <div class="Modern-Slider">
+              <div class="item item-3">
+                <div class="img-fill">
+                  <div class="text-content">
+                    <h6>Agile Methodology</h6>
                     <h4>
-                      Market Analysis
+                      Published on
                       <br />
-                      &amp; Statistics
+                      August 3rd 2022
                     </h4>
                     <p>
-                      Market analysis is a detailed assessment of your business's target market and
-                      competitive landscape within a specific industry.
+                      Agile stands for its versatility and evolutionary nature
+                      as one of the most common approaches to project
+                      management. Those who work in the industry, or closely to
+                      it, are aware that the art of software development is
+                      special and a bit different to ot...
                     </p>
-                    <a href='' class='filled-button'>
+                    <a href="" class="filled-button">
                       learn more
                     </a>
                   </div>
