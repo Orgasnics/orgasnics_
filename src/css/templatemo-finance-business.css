@@ -821,7 +821,22 @@ ul.slick-dots {
   width: 95%;
   overflow: hidden;
 }
-
+@media screen and (max-width: 600px) {
+  .testimonial-item .inner-content {
+    text-align: center;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    height: 270px;
+    width: 95%;
+    overflow: hidden;
+  }
+  .testimonial-item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
 .testimonial-item p {
   font-size: 14px;
   font-weight: 400;
