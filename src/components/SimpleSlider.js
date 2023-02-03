@@ -30,7 +30,7 @@ export default class SimpleSlider extends Component {
                       employing skilled workers from around the globe.
                       Naturally, the manager is responsible fo...
                     </p>
-                    <a href="" class="filled-button">
+                    <a href="#contact_id" class="filled-button">
                       contact us
                     </a>
                   </div>
@@ -53,7 +53,7 @@ export default class SimpleSlider extends Component {
                       will help them in making a smarter purchase decision.
                       Actually, according to a su...
                     </p>
-                    <a href="" class="filled-button">
+                    <a href="#our_services" class="filled-button">
                       our services
                     </a>
                   </div>
@@ -76,7 +76,7 @@ export default class SimpleSlider extends Component {
                       it, are aware that the art of software development is
                       special and a bit different to ot...
                     </p>
-                    <a href="" class="filled-button">
+                    <a href="#learn_more" class="filled-button">
                       learn more
                     </a>
                   </div>

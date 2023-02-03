@@ -20,9 +20,9 @@ const Our_Solution_section = () => {
                   importance of quality management, and we strive to put in
                   place a continuous improvement process internally
                 </p>
-                <a href="" class="filled-button">
-                  Read More
-                </a>
+                {/* <a href="" class="filled-button">
+                  Read Morellll
+                </a> */}
               </div>
             </div>
             <div class="col-md-6 align-self-center">
