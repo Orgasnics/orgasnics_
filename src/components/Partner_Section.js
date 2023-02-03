@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-import client01 from "../assets/client-01.png";
-import microsoft from "../assets/microsoft.png";
-import toyota from "../assets/toyota.png";
-import cannon from "../assets/cannon.png";
+import logo_img from "../assets/logo_img.jfif";
+import logo_img2 from "../assets/logo_img2.png";
+import logo_img3 from "../assets/logo_img3.jfif";
 import idex from "../assets/idex.png";
 import afd from "../assets/afd.png";
 export default class VariableWidth extends Component {
@@ -63,15 +62,15 @@ export default class VariableWidth extends Component {
             <div className="partner_item_outer">
               <Slider {...settings}>
                 <div class="partner-item">
-                  <img src={microsoft} title="1" alt="1" />
+                  <img src={logo_img} title="1" alt="1" />
                 </div>
 
                 <div class="partner-item">
-                  <img src={toyota} title="2" alt="2" />
+                  <img src={logo_img2} title="2" alt="2" />
                 </div>
 
                 <div class="partner-item">
-                  <img src={cannon} title="3" alt="3" />
+                  <img src={logo_img3} title="3" alt="3" />
                 </div>
 
                 <div class="partner-item">
