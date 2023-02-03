@@ -3,7 +3,7 @@ import more_info1 from "../assets/more-info.jpg";
 const Who_We_Are = () => {
   return (
     <>
-      <div class="more-info">
+      <div class="more-info" id="learn_more">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -33,9 +33,9 @@ const Who_We_Are = () => {
                         team. Established in France, United States and Pakistan,
                         the company is providing development services worldwide.
                       </p>
-                      <a href="#" class="filled-button">
+                      {/* <a href="#" class="filled-button">
                         Read More
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
