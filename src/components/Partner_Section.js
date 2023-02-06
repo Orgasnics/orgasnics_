@@ -44,7 +44,7 @@ export default class VariableWidth extends Component {
     };
     return (
       <div>
-        <div class="testimonials">
+        <div class="testimonials" id="Our_Clients">
           <div class="container">
             <div class="row"></div>
             <div class="col-md-12">

@@ -2,47 +2,34 @@ import React from "react";
 const Per_Bar = () => {
   return (
     <>
-      <div class="sub-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-xs-12">
-              <ul class="left-info">
-                <li>
-                  <a href="#">
-                    <i class="fa fa-clock-o"></i>Mon-Fri 09:00-18:00
-                  </a>
-                </li>
-                <li>
+      <div class="sub_header">
+        <div class="sub_header_container">
+          <div class="sub_container">
+            <div class="left_info">
+              <div class="sub_left_info">
+                <div>Mon-Fri 09:00-18:00</div>
+                <div>
                   <a href="https://wa.me/+923135098197" target="_blank">
-                    +923135098197
+                    <i> +923135098197</i>
                   </a>
-                  {/* <i class='fa fa-phone'></i> */}
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <ul class="right-icons">
-                <li>
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa fa-behance"></i>
-                  </a>
-                </li>
-              </ul>
+            <div class="right_info">
+              <div class="sub_right_info">
+                <div>
+                  <a href="#our_services">Our Services</a>
+                </div>
+                <div>
+                  <a href="#learn_more">About Us</a>
+                </div>
+                <div>
+                  <a href="#Our_Clients">Our Clients</a>
+                </div>
+                <div>
+                  <a href="#contact_id">Contact Us</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

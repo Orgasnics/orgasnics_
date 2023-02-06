@@ -43,7 +43,7 @@ const Request_a_call_back = () => {
     <>
       <div id="contact_id" class="callback-form">
         <div class="container">
-          <div class="row">
+          <div class="row" style={{ display: "flex", flexDirection: "column" }}>
             <div class="col-md-12">
               <div class="section-heading">
                 <h2>
