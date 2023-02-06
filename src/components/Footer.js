@@ -45,10 +45,10 @@ const Footer = () => {
   return (
     <>
       {/* <!-- Footer Starts Here --> */}
-      <footer>
+      <footer id="footer_contact">
         <div class="container">
           <div class="row">
-            <div class="col-md-3 footer-item">
+            <div class="col-md-4 footer-item">
               <h4>Ever Green</h4>
               <p>
                 The services are provided at a flat rate, or according to a
@@ -62,47 +62,8 @@ const Footer = () => {
                                 <li><a href="#"><i class="fa fa-behance"></i></a></li>
                             </ul> */}
             </div>
-            {/* <div class='col-md-3 footer-item'>
-              <h4>Useful Links</h4>
-              <ul class='menu-list'>
-                <li>
-                  <a href='#'>Vivamus ut tellus mi</a>
-                </li>
-                <li>
-                  <a href='#'>Nulla nec cursus elit</a>
-                </li>
-                <li>
-                  <a href='#'>Vulputate sed nec</a>
-                </li>
-                <li>
-                  <a href='#'>Cursus augue hasellus</a>
-                </li>
-                <li>
-                  <a href='#'>Lacinia ac sapien</a>
-                </li>
-              </ul>
-            </div> */}
-            {/* <div class='col-md-3 footer-item'>
-              <h4>Additional Pages</h4>
-              <ul class='menu-list'>
-                <li>
-                  <a href='#'>About Us</a>
-                </li>
-                <li>
-                  <a href='#'>How We Work</a>
-                </li>
-                <li>
-                  <a href='#'>Quick Support</a>
-                </li>
-                <li>
-                  <a href='#'>Contact Us</a>
-                </li>
-                <li>
-                  <a href='#'>Privacy Policy</a>
-                </li>
-              </ul>
-            </div> */}
-            <div class="col-md-3 footer-item last-item">
+
+            <div class="col-md-4 footer-item last-item">
               <h4>Contact Us</h4>
               <form onSubmit={sendEmail}>
                 <div class="contact-form">
@@ -174,6 +135,46 @@ const Footer = () => {
                 </div>
               </form>
             </div>
+            {/* <div class='col-md-3 footer-item'>
+              <h4>Useful Links</h4>
+              <ul class='menu-list'>
+                <li>
+                  <a href='#'>Vivamus ut tellus mi</a>
+                </li>
+                <li>
+                  <a href='#'>Nulla nec cursus elit</a>
+                </li>
+                <li>
+                  <a href='#'>Vulputate sed nec</a>
+                </li>
+                <li>
+                  <a href='#'>Cursus augue hasellus</a>
+                </li>
+                <li>
+                  <a href='#'>Lacinia ac sapien</a>
+                </li>
+              </ul>
+            </div> */}
+            {/* <div class='col-md-3 footer-item'>
+              <h4>Additional Pages</h4>
+              <ul class='menu-list'>
+                <li>
+                  <a href='#'>About Us</a>
+                </li>
+                <li>
+                  <a href='#'>How We Work</a>
+                </li>
+                <li>
+                  <a href='#'>Quick Support</a>
+                </li>
+                <li>
+                  <a href='#'>Contact Us</a>
+                </li>
+                <li>
+                  <a href='#'>Privacy Policy</a>
+                </li>
+              </ul>
+            </div> */}
           </div>
         </div>
       </footer>

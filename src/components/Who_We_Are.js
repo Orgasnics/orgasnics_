@@ -1,6 +1,7 @@
 import React from "react";
 import more_info1 from "../assets/more-info.jpg";
 const Who_We_Are = () => {
+  const screenWidth = window.innerWidth;
   return (
     <>
       <div class="more-info" id="learn_more">
@@ -21,17 +22,9 @@ const Who_We_Are = () => {
                         About <em>Ever Green</em>
                       </h2>
                       <p>
-                        Ever Green is a development agency that specializes in
-                        web application development and consultancy in the field
-                        of new technologies. We combine rigor, quality of work
-                        and optimized production costs. Founded in 2015, Ever
-                        Green started out as a consulting company which worked
-                        with large companies such as Microsoft, Canon and Accor.
-                        In 2017, Ever Green took off and became a development
-                        agency, bringing together over 10 years of experience in
-                        application development and project management in its
-                        team. Established in France, United States and Pakistan,
-                        the company is providing development services worldwide.
+                        {screenWidth >= 888
+                          ? "Ever Green is a development agency that specializes in  web application development and consultancy in the field  of new technologies. We combine rigor, quality of work and optimized production costs. Founded in 2015, Ever Green started out as a consulting company which worked  with large companies such as Microsoft, Canon and Accor.  In 2017, Ever Green took off and became a development agency, bringing together over 10 years of experience in application development and project management in its team. Established in France, United States and Pakistan,   the company is providing development services worldwide."
+                          : "Ever Green is a development agency that specializes in  web application development and consultancy in the field  of new technologies. We combine rigor, quality of work and optimized production costs. Founded in 2015, Ever Green started out as a ...."}
                       </p>
                       {/* <a href="#" class="filled-button">
                         Read More

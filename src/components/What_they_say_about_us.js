@@ -7,7 +7,7 @@ export default class VariableWidth extends Component {
       dots: false,
       infinite: true,
       speed: 500,
-      slidesToShow: 2,
+      slidesToShow: window.innerWidth < 600 ? 1 : 2,
       slidesToScroll: 1,
       autoplay: true,
       arrow: false,
@@ -38,7 +38,7 @@ export default class VariableWidth extends Component {
                         : "We had a job which needed quick expert help and right ...."}
                     </p>
                   </div>
-                  <img src="http://placehold.it/60x60" alt="" />
+                  {/* <img src="http://placehold.it/60x60" alt="" /> */}
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ export default class VariableWidth extends Component {
                       : "They have a very good development team. Responsive and dep...."}
                   </p>
                 </div>
-                <img src="http://placehold.it/60x60" alt="" />
+                {/* <img src="http://placehold.it/60x60" alt="" /> */}
               </div>
 
               <div>
@@ -67,7 +67,7 @@ export default class VariableWidth extends Component {
                         : "Ever Green was a delight to work with. There Mobile App development team has a..."}
                     </p>
                   </div>
-                  <img src="http://placehold.it/60x60" alt="" />
+                  {/* <img src="http://placehold.it/60x60" alt="" /> */}
                 </div>
               </div>
 
@@ -82,7 +82,7 @@ export default class VariableWidth extends Component {
                         : "Ever Green a permis à mon application de prendre forme...."}
                     </p>
                   </div>
-                  <img src="http://placehold.it/60x60" alt="" />
+                  {/* <img src="http://placehold.it/60x60" alt="" /> */}
                 </div>
               </div>
             </Slider>
