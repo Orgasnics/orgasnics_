@@ -4,6 +4,7 @@ import service_02 from "../assets/service_02.jpg";
 import service_03 from "../assets/service_03.jpg";
 
 const Financial_Services = () => {
+  const innerWidth = window.innerWidth;
   return (
     <>
       <div class="services" id="our_services">
@@ -22,10 +23,17 @@ const Financial_Services = () => {
                 <img src={service_01} alt="" />
                 <div class="down-content">
                   <h4>MOBILE DEVELOPMENT</h4>
-                  <p>
-                    Our technical teams specialized in mobile development can
-                    develop hybr...
-                  </p>
+                  <tooltip
+                    title="Our technical teams specialized in mobile development can
+                      develop hybrid or native applications to adapt your
+                      projects to customer needs."
+                  >
+                    <p>
+                      {innerWidth > 768
+                        ? "Our technical teams specialized in mobile development can develop hy..."
+                        : "Our technical teams specialized in mobile development can develop hybrid or native applications to adapt your projects to customer needs."}
+                    </p>
+                  </tooltip>
                   {/* <a href='' class='filled-button'>
                     Read More
                   </a> */}
@@ -37,10 +45,17 @@ const Financial_Services = () => {
                 <img src={service_02} alt="" />
                 <div class="down-content">
                   <h4>WEB DEVELOPERS</h4>
-                  <p>
-                    Our web teams are always at the forefront of technology for
-                    both the f...
-                  </p>
+
+                  <tooltip
+                    title="Our web teams are always at the forefront of technology
+                    for both the front end and the back end."
+                  >
+                    <p>
+                      {innerWidth > 768
+                        ? "Our web teams are always at the forefront of technology for both the f..."
+                        : "Our web teams are always at the forefront of technology for both the front end and the back end."}
+                    </p>
+                  </tooltip>
                   {/* <a href='' class='filled-button'>
                     Read More
                   </a> */}
@@ -52,10 +67,18 @@ const Financial_Services = () => {
                 <img src={service_03} alt="" />
                 <div class="down-content">
                   <h4>SOFTWARE DEVELOPERS</h4>
-                  <p>
-                    Our teams of software engineers have the expertise to
-                    develop successf...
-                  </p>
+
+                  <tooltip
+                    title="Our teams of software engineers have the expertise to
+                    develop successful software adapted to the various trades."
+                  >
+                    <p>
+                      {innerWidth > 768
+                        ? "Our teams of software engineers have the expertise to develop succes..."
+                        : "Our teams of software engineers have the expertise to develop successful software adapted to the various trades."}
+                    </p>
+                  </tooltip>
+
                   {/* <a href='' class='filled-button'>
                     Read More
                   </a> */}
