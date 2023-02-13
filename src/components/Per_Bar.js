@@ -1,4 +1,5 @@
 import React from "react";
+import MobileNavbar from "./MobileNavbar";
 const Per_Bar = () => {
   return (
     <>
@@ -7,9 +8,15 @@ const Per_Bar = () => {
           <div class="sub_container">
             <div class="left_info">
               <div class="sub_left_info">
-                <div>Mon-Fri 09:00-18:00</div>
                 <div>
-                  <a href="https://wa.me/+923135098197" target="_blank">
+                  <p>Mon-Fri 09:00-18:00</p>
+                </div>
+                <div>
+                  <a
+                    href="https://wa.me/+923135098197"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i> +923135098197</i>
                   </a>
                 </div>
@@ -31,6 +38,9 @@ const Per_Bar = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="mobileHeader">
+            <MobileNavbar />
           </div>
         </div>
       </div>

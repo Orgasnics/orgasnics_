@@ -62,23 +62,23 @@ export default class VariableWidth extends Component {
             <div className="partner_item_outer">
               <Slider {...settings}>
                 <div class="partner-item">
-                  <img src={logo_img} title="1" alt="1" />
+                  <img src={logo_img} title="" alt="1" />
                 </div>
 
                 <div class="partner-item">
-                  <img src={logo_img2} title="2" alt="2" />
+                  <img src={logo_img2} title="" alt="2" />
                 </div>
 
                 <div class="partner-item">
-                  <img src={logo_img3} title="3" alt="3" />
+                  <img src={logo_img3} title="" alt="3" />
                 </div>
 
                 <div class="partner-item">
-                  <img src={idex} title="4" alt="4" />
+                  <img src={idex} title="" alt="4" />
                 </div>
 
                 <div class="partner-item">
-                  <img src={afd} title="5" alt="5" />
+                  <img src={afd} title="" alt="5" />
                 </div>
               </Slider>
             </div>

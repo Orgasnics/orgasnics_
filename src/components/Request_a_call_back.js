@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "emailjs-com";
 
@@ -11,6 +11,8 @@ const Request_a_call_back = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    const emailRegEx = /^([a-z0-9.-]+)@([\da-z.-]+)\.([a-z.]{2,6})$/g;
 
     emailjs
       .sendForm(
@@ -28,16 +30,19 @@ const Request_a_call_back = () => {
         }
       );
     if (!email || !subject || !message || !name) {
-      return toast.error("Please add all fields ");
+      return toast.error("Please fill all fields ");
+    } else if (!emailRegEx.test(email)) {
+      toast.error("Please enter valid email");
     } else {
-      toast.success("Saved Successfully");
+      toast.success("Sent Successfully");
+      setEmail("");
+      setName("");
+      setMessage("");
+      setSubject("");
     }
-    setEmail("");
-    setName("");
-    setMessage("");
-    setSubject("");
   };
-  const showToast = () => {};
+
+  // const showToast = () => {};
 
   return (
     <>
