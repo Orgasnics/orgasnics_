@@ -44,7 +44,7 @@ const Financial_Services = () => {
               <div class="service-item">
                 <img src={service_02} alt="" />
                 <div class="down-content">
-                  <h4>WEB DEVELOPERS</h4>
+                  <h4> WEB DEVELOPERS</h4>
 
                   <tooltip
                     title="Our web teams are always at the forefront of technology
@@ -56,9 +56,6 @@ const Financial_Services = () => {
                         : "Our web teams are always at the forefront of technology for both the front end and the back end."}
                     </p>
                   </tooltip>
-                  {/* <a href='' class='filled-button'>
-                    Read More
-                  </a> */}
                 </div>
               </div>
             </div>
@@ -78,10 +75,6 @@ const Financial_Services = () => {
                         : "Our teams of software engineers have the expertise to develop successful software adapted to the various trades."}
                     </p>
                   </tooltip>
-
-                  {/* <a href='' class='filled-button'>
-                    Read More
-                  </a> */}
                 </div>
               </div>
             </div>

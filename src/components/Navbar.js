@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav class="navbar navbar-expand-lg">
           <div class="container">
             <a class="navbar-brand" href="">
-              <h2>Ever Green</h2>
+              <h2>Orgasnics_</h2>
             </a>
             <button
               class="navbar-toggler"

@@ -7,41 +7,37 @@ const Footer = () => {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const Submit = () => {
-    if (!email || !message || !fullname) {
-      return toast.error("Please add all fields ");
-    } else {
-      toast.success("Saved Successfully");
-    }
-  };
+
   const sendEmail = (e) => {
     e.preventDefault();
+    const emailRegEx = /^([a-z0-9.-]+)@([\da-z.-]+)\.([a-z.]{2,6})$/g;
 
-    emailjs
-      .sendForm(
-        "service_bqk7ncn",
-        "template_64h2zij",
-        e.target,
-        "RA1551YNJv_HEIHgQ"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
     if (!email || !message || !fullname) {
-      return toast.error("Please add all fields ");
+      return toast.error("Please fill all fields ");
+    } else if (!emailRegEx.test(email)) {
+      toast.error("Please enter valid email");
     } else {
-      toast.success("Saved Successfully");
+      emailjs
+        .sendForm(
+          "service_bqk7ncn",
+          "template_64h2zij",
+          e.target,
+          "RA1551YNJv_HEIHgQ"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      toast.success("Sent Successfully");
+      setEmail("");
+      setFullname("");
+      setMessage("");
     }
-    setEmail("");
-    setFullname("");
-    setMessage("");
   };
-  const showToast = () => {};
   return (
     <>
       {/* <!-- Footer Starts Here --> */}
@@ -118,13 +114,6 @@ const Footer = () => {
                             type="submit"
                             id="form-submit"
                             class="filled-button"
-                            // onClick={() => {
-                            //   Submit();
-                            //   showToast();
-                            //   setEmail('');
-                            //   setFullname('');
-                            //   setMessage('');
-                            // }}
                           >
                             Send Message
                           </button>
@@ -135,46 +124,6 @@ const Footer = () => {
                 </div>
               </form>
             </div>
-            {/* <div class='col-md-3 footer-item'>
-              <h4>Useful Links</h4>
-              <ul class='menu-list'>
-                <li>
-                  <a href='#'>Vivamus ut tellus mi</a>
-                </li>
-                <li>
-                  <a href='#'>Nulla nec cursus elit</a>
-                </li>
-                <li>
-                  <a href='#'>Vulputate sed nec</a>
-                </li>
-                <li>
-                  <a href='#'>Cursus augue hasellus</a>
-                </li>
-                <li>
-                  <a href='#'>Lacinia ac sapien</a>
-                </li>
-              </ul>
-            </div> */}
-            {/* <div class='col-md-3 footer-item'>
-              <h4>Additional Pages</h4>
-              <ul class='menu-list'>
-                <li>
-                  <a href='#'>About Us</a>
-                </li>
-                <li>
-                  <a href='#'>How We Work</a>
-                </li>
-                <li>
-                  <a href='#'>Quick Support</a>
-                </li>
-                <li>
-                  <a href='#'>Contact Us</a>
-                </li>
-                <li>
-                  <a href='#'>Privacy Policy</a>
-                </li>
-              </ul>
-            </div> */}
           </div>
         </div>
       </footer>

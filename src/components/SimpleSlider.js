@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
@@ -28,7 +27,8 @@ export default class SimpleSlider extends Component {
                       were not working thousands of miles away from you.
                       Nowadays, businesses are adopting remote trends by
                       employing skilled workers from around the globe.
-                      Naturally, the manager is responsible fo...
+                      Naturally, the manager is responsible for not only
+                      managing the team.
                     </p>
                     <a href="#contact_id" class="filled-button">
                       contact us
@@ -51,7 +51,8 @@ export default class SimpleSlider extends Component {
                       with the internet. Most consumers will be using their
                       electronic devices to search for online information that
                       will help them in making a smarter purchase decision.
-                      Actually, according to a su...
+                      Actually, according to to a survey, 88% of the consumers
+                      will search online.
                     </p>
                     <a href="#our_services" class="filled-button">
                       our services
@@ -74,7 +75,8 @@ export default class SimpleSlider extends Component {
                       as one of the most common approaches to project
                       management. Those who work in the industry, or closely to
                       it, are aware that the art of software development is
-                      special and a bit different to ot...
+                      special and a bit different to other kinds of
+                      Engineerings.
                     </p>
                     <a href="#learn_more" class="filled-button">
                       learn more
